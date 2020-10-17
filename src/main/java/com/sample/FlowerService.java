@@ -8,7 +8,7 @@ import java.util.List;
 public class FlowerService {
 
     public List getAvailableFlowers(FlowerType type){
-
+        System.out.println("Welcome");
         List fragrance = new ArrayList();
 
         if(type.equals(FlowerType.LILY)){
